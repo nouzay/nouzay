@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Analyse Mme.Sagathevan</title>
+
+    <link href="{{url_for('static', filename = 'bhann.css')}}" rel="stylesheet">
+  </head>
+
+  <header>
+    <div class="header">
+      <ul>
+        <li><a href="index4.html">Accueil</a></li>
+        <li><a href="apropos.html">A propos</a></li>
+        <li><a href="contact.html">Contact</a></li>
+
+      </ul>
+    </div>
+  
+
+
+  <body>
+    <div  id="logo">
+    <img src="..\static\logo2.png" alt="logo laboratoire" width="110" ; height="90"/>
+  </div>
+    
+    <p style="float:right; padding-right: 150px; color: #5e9592">Cliquez sur le bas de l'analyse pour le télécharger : <p>
+      <a href="..\static\bhan.pdf" download="logo laboratoire">
+        <img style="float:right; padding-right: 200px " class= "analyse" src="..\static\bhan.jpg" alt="logo laboratoire" width="250" ; height="350"/>
+      </a>
+ 
+
+
+<form action = "{{ url_for('addetudiant') }}" method = "POST">
+
+  <div style="padding-right: 450px" class="login-box">
+    
+    <h1>Mme.Sagathevan</h1>
+
+    <div  class="textbox">
+      <i class="fas fa-map-marker-alt"></i>
+      <input type="text" name="addr" placeholder="Adresse">
+    </div>
+
+  <div  class="textbox">
+    <i class="fas fa-envelope-square"></i>
+    <input type="text" name="m" placeholder="Mail">
+  </div>
+
+  <div  class="button">
+  <button type="submit" class="btn">Enregistrer</button>
+</div>
+
+</div>
+
+
+</form>
+
+</body>
+
+</header>
+
+</html>
