@@ -1,5 +1,5 @@
 # zayouLaboratory
-Bienvune sur ZAYOU LABORATORY!
+Bienveune sur ZAYOU LABORATORY!
 Ce site permet de stocker, afficher et de télécharger ces fichiers de santé (résultats d'analyse, vaccin, IRM...).
 Pour accèder à votre compte il faut avoir un identifiant et un mot de passe fournie par ZAYOU LABORATORY car les données sont sécurisées par les login suivant :
 Identifiant : 5   mot de passe : Bhanudjah
