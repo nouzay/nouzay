@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Mes Analyses</title>
+    
+    <link href="{{url_for('static', filename = 'style1.css')}}" rel="stylesheet">
+
+  </head >
+
+  <header>
+
+    <div class="header">
+      <ul>
+        <li><a href="#">Accueil</a></li>
+        <li><a href="apropos.html">A propos</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#">Inscription</a></li>
+      </ul>
+    </div>
+
+  <body>
+    <div id="logo">
+    <img src="..\static\logo2.png" alt="logo laboratoire" width="110" ; height="90"/>
+  </div>
+  
+<form action = "{{ url_for('addetudiant') }}" method = "POST">
+  <div class="login-box">
+    <h1>Mes analyses</h1>
+
+    <div class="textbox">
+      <i class="fas fa-user"></i>
+      <input type="text" name="n" placeholder="Identifiant">
+    </div>
+
+  <div class="textbox">
+    <i class="fas fa-lock"></i>
+    <input type="password" name="pin" placeholder="Mot de passe">
+  </div>
+
+  <div class="oublie">
+    <a href = "https://www.conseilsmarketing.com/autres-conseils-marketing/comment-retrouver-un-mot-de-passe-oublie-pour-un-site-internet/" target = "self">Mot de passe oublié ?</a>
+  </div>
+
+  <div class="button1">
+  <button type="submit" class="btn">Afficher mes résultats</button>
+</div>
+
+</div>
+</form>
+
+  </body>
+</html>
